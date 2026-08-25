@@ -1,0 +1,5 @@
+Distribution,Location (fixed),Scale Parameter,Degrees of Freedom (nu)
+Gaussian,0.0,1.9734211113798292,
+Laplace,0.0,1.4647013400216624,
+Cauchy,0.0,0.9715773371509071,
+Student-t,0.0,1.6603935761041375,6.267947531377115
