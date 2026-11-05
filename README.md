@@ -163,7 +163,7 @@ Each step depends on files produced by earlier steps, so run them sequentially. 
 
 ## References
 
-- Ramakrishnan, S. & Desai, S. (2023), *A meta-analysis of measurements of the primordial helium abundance*, [arXiv:2310.17860](https://arxiv.org/abs/2310.17860).
+- Ramakrishnan, S. & Desai, S. (2023), *A meta-analysis of distance measurements to M87*, [arXiv:2310.17860](https://arxiv.org/abs/2310.17860).
 - Gott, J. R., Vogeley, M. S., Podariu, S. & Ratra, B. (2001), *Median Statistics, H\(_0\), and the Age of the Universe*, **The Astrophysical Journal**, 549, 1.
 - Rackers et al. (2024), reference cited in the project scripts for the arithmetic- and weighted-mean estimators. Add the complete bibliographic entry used in the dissertation before publication.
 
