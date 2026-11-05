@@ -170,4 +170,4 @@ Each step depends on files produced by earlier steps, so run them sequentially. 
 ## Author and supervision
 
 **Student:** Shivanshu Pandey, MSc Physics, IIT Hyderabad  
-**Supervisor:** Dr. Shantanu Desai, IIT Hyderabad
+**Supervisor:** Dr. Shantanu Desai, Department of Physics, IIT Hyderabad
