@@ -1,4 +1,4 @@
-#File : 06_tracer_analysis.py
+File : 06_tracer_analysis.py
 
 import json,os
 import numpy as np
