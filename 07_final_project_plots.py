@@ -1,15 +1,5 @@
-"""
-==========================================================
-Astro Project
-File : 07_final_project_plots.py
-Purpose
--------
-Generate publication-quality figures and visualizations 
-representing the 50-year meta-analysis of primordial 
-helium abundance measurements. Produces both PNG and 
-vector PDF formats suitable for an MSc Physics dissertation.
-==========================================================
-"""
+#File : 07_final_project_plots.py
+
 
 import json
 import os
@@ -45,9 +35,9 @@ df_tracers = pd.read_csv('outputs/tables/tracer_central_estimates.csv')
 
 print(f'Loaded {len(df)} measurements, {len(df_tracers)} tracer groups.')
 
-# ---------------------------------------------------------
+
 # Plot 1: Primordial Helium (Yp) vs. Publication Year (Colored by Tracer)
-# ---------------------------------------------------------
+
 print('\nGenerating Plot 1: Yp vs. Publication Year...')
 plt.figure(figsize=(10, 6))
 
@@ -84,9 +74,9 @@ plt.savefig('outputs/plots/Yp_vs_year.png', dpi=300)
 plt.savefig('outputs/plots/Yp_vs_year.pdf')  # Save vector version
 plt.close()
 
-# ---------------------------------------------------------
+
 # Plot 2: Yp with Total Uncertainties (Error Bars) vs. Year
-# ---------------------------------------------------------
+
 print('Generating Plot 2: Yp with Error Bars...')
 plt.figure(figsize=(10, 6))
 
@@ -140,9 +130,8 @@ plt.savefig('outputs/plots/Yp_vs_year_errorbars.png', dpi=300)
 plt.savefig('outputs/plots/Yp_vs_year_errorbars.pdf')
 plt.close()
 
-# ---------------------------------------------------------
 # Plot 3: Subplot of Yp and Uncertainty Histograms
-# ---------------------------------------------------------
+
 print('Generating Plot 3: Abundance & Uncertainty Histograms...')
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
 
@@ -181,9 +170,9 @@ plt.savefig('outputs/plots/histograms_combined.png', dpi=300)
 plt.savefig('outputs/plots/histograms_combined.pdf')
 plt.close()
 
-# ---------------------------------------------------------
+
 # Plot 4: Uncertainty vs. Year (Convergence Metric)
-# ---------------------------------------------------------
+
 print('Generating Plot 4: Uncertainty vs. Year...')
 plt.figure(figsize=(10, 5))
 plt.scatter(
@@ -209,9 +198,9 @@ plt.savefig('outputs/plots/uncertainty_vs_year.png', dpi=300)
 plt.savefig('outputs/plots/uncertainty_vs_year.pdf')
 plt.close()
 
-# ---------------------------------------------------------
+
 # Plot 5: Tracer Counts
-# ---------------------------------------------------------
+
 print('Generating Plot 5: Tracer Counts Bar Chart...')
 plt.figure(figsize=(8, 5))
 counts = df['Tracer'].value_counts()
@@ -230,9 +219,9 @@ plt.savefig('outputs/plots/tracer_counts.png', dpi=300)
 plt.savefig('outputs/plots/tracer_counts.pdf')
 plt.close()
 
-# ---------------------------------------------------------
+
 # Plot 6: Tracer-wise Central Estimates Comparison
-# ---------------------------------------------------------
+
 print('Generating Plot 6: Tracer Central Estimates Comparison...')
 plt.figure(figsize=(10, 6))
 x_pos = np.arange(len(df_tracers))
@@ -292,9 +281,9 @@ plt.savefig('outputs/plots/tracer_central_estimates.png', dpi=300)
 plt.savefig('outputs/plots/tracer_central_estimates.pdf')
 plt.close()
 
-# ---------------------------------------------------------
+
 # Plot 7: Global Raw Residuals Histograms (Includes wm+ and wm-)
-# ---------------------------------------------------------
+
 print('Generating Plot 7: Global Raw Residuals...')
 fig, axes = plt.subplots(4, 1, figsize=(8, 12), sharex=True)
 
@@ -343,9 +332,9 @@ plt.savefig('outputs/plots/global_residuals.png', dpi=300)
 plt.savefig('outputs/plots/global_residuals.pdf')
 plt.close()
 
-# ---------------------------------------------------------
+
 # Plot 8: Symmetrized Residuals Histograms (Includes wm+ and wm-)
-# ---------------------------------------------------------
+
 print('Generating Plot 8: Symmetrized Residuals...')
 fig, axes = plt.subplots(4, 1, figsize=(8, 12), sharex=True)
 
@@ -397,9 +386,9 @@ plt.savefig('outputs/plots/symmetrized_residuals.png', dpi=300)
 plt.savefig('outputs/plots/symmetrized_residuals.pdf')
 plt.close()
 
-# ---------------------------------------------------------
+
 # Plot 9: Tracer Medians Overview
-# ---------------------------------------------------------
+
 print('Generating Plot 9: Tracer Medians Overview...')
 plt.figure(figsize=(8, 5))
 plt.errorbar(
