@@ -1,16 +1,5 @@
-"""
-==========================================================
-Astro Project
-File : 05_ks_tests.py
-Purpose
--------
-Perform unbinned Kolmogorov-Smirnov (K-S) goodness-of-fit 
-tests on symmetrized error residuals. Programmatically 
-optimizes the scale factor (S*) to determine which continuous 
-distribution (Gaussian, Laplace, Cauchy, or Student's-t) 
-best describes the actual scatter in the literature.
-==========================================================
-"""
+#File : 05_ks_tests.py
+
 
 import os
 import json
