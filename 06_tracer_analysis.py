@@ -1,16 +1,4 @@
-"""
-==========================================================
-Astro Project
-File : 06_tracer_analysis.py
-Purpose
--------
-Perform tracer-wise meta-analysis. Calculate central 
-estimates for each major physical observation category,
-compute tracer-wise residuals, and execute unbinned 
-Kolmogorov-Smirnov goodness-of-fit tests on the large-sample 
-subgroups (H II regions and CMB).
-==========================================================
-"""
+#File : 06_tracer_analysis.py
 
 import json,os
 import numpy as np
