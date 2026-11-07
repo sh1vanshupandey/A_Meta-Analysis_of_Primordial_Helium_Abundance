@@ -1,18 +1,6 @@
-"""Load data for the Astro_Project workflow."""
-"""
-==========================================================
-Astro Project
-File : 01_load_data.py
-Purpose
--------
-Load the primordial helium abundance dataset,
-inspect it,
-clean it,
-prepare it for statistical analysis,
-and save the cleaned dataset.
-Author : Your Name
-==========================================================
-"""
+
+#File : 01_load_data.py
+
 
 import pandas as pd
 import numpy as np
