@@ -1,15 +1,5 @@
-"""
-==========================================================
-Astro Project
-File : 04_distribution_fits.py
-Purpose
--------
-Fit multiple probability distributions (Gaussian, Laplace, 
-Cauchy, and Student's-t) to the Symmetrized Residuals 
-of primordial helium measurements, forcing the location 
-parameter to zero to isolate error scale and tail thickness.
-==========================================================
-"""
+#File : 04_distribution_fits.py
+
 
 import os
 import numpy as np
