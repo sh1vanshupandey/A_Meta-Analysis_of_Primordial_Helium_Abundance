@@ -1,11 +1,5 @@
-"""
-=========================================================
-Astro Project
-File : 03_residual_analysis.py
-Purpose:
-Compute normalized and symmetrized residuals for all estimators.
-=========================================================
-"""
+#File : 03_residual_analysis.py
+
 
 import pandas as pd
 import numpy as np
