@@ -1,16 +1,5 @@
-"""Calculate central statistical estimates and uncertainties."""
-"""
-==========================================================
-Astro Project
-File : 02_basic_statistics.py
-Purpose
--------
-Calculate the three cosmological central estimators
-(Arithmetic Mean, Weighted Mean, and Median Statistics)
-along with their associated statistical uncertainties
-for the Primordial Helium dataset.
-==========================================================
-"""
+#File : 02_basic_statistics.py
+
 
 import pandas as pd
 import numpy as np
