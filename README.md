@@ -1,4 +1,4 @@
-# A Meta-Analysis of Primordial Helium Abundance (\(Y_p\))
+# A Meta-Analysis of Primordial Helium Abundance (Y_p)
 
 A computational and statistical meta-analysis of published primordial helium-4 mass-fraction measurements. The project examines central estimators, reported measurement uncertainties, normalized residuals, distributional shape, and differences among observational tracer classes.
 
